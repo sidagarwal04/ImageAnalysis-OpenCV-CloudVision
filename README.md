@@ -13,9 +13,9 @@ Here is the code for image recognition using OpenCV and Google Cloud Vision API 
 - Install Google Cloud Storage Python Client, `$ sudo pip install --upgrade google-cloud-storage`
 - Install Cloud Vision API Client Libraries, `$ pip install --upgrade google-cloud-vision`
 - Authenticating to the Cloud Storage and Vision API, `$ export GOOGLE_APPLICATION_CREDENTIALS=PATH_TO_KEY_FILE`, https://cloud.google.com/speech/docs/auth#using_a_service_account
-- haarcascade_frontalface_default.xml, 
-- haarcascade_smile.xml, 
-- haarcascade_eye.xml
+- haarcascade_frontalface_default.xml, https://github.com/sidagarwal04/ImageAnalysis-OpenCV-CloudVision/blob/master/haarcascade_frontalface_default.xml
+- haarcascade_smile.xml, https://github.com/sidagarwal04/ImageAnalysis-OpenCV-CloudVision/blob/master/haarcascade_smile.xml
+- haarcascade_eye.xml, https://github.com/sidagarwal04/ImageAnalysis-OpenCV-CloudVision/blob/master/haarcascade_eye.xml
 
 # Note: 
 Ubuntu 16.04 actually ships out-of-the-box with both Python 2.7 and Python 3.5 installed. The actual versions are:
